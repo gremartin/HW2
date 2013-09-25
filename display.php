@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<$php require_once('logic.php'); ?>
+<?php require_once('logic.php'); ?>
 <style type="text/css">
 	body{
 		background-color: rgb(<?php echo $backgroundColor;?>);
 	}
 	h2{
-		color rgb(<?php echo $textColor;?>);
+		color: <?php echo $textColor;?>;
 	}
 </style>
 <title>dwa15 HW 2</title>

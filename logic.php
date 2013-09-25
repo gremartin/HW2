@@ -1,7 +1,8 @@
 <?php
-$currentHour = date(G);
-$currentTime = date(H:i);
-if ($currentHour >= 8 and <= 20){
+date_default_timezone_set('America/New_York');
+$currentHour = date("G");
+$currentTime = date("H:i");
+if (($currentHour >= 8) AND ($currentHour <= 20)){
 	$backgroundColor = "41,151,244";
 	$textColor = "black";
 	}
